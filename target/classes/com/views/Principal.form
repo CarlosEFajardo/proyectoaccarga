@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[750, 430]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="bg" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="bg" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="bg">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[750, 430]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="ViewTxt1" max="32767" attributes="0"/>
+                      <Component id="ViewTxt6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="ViewTxt5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="ViewTxt3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="ViewTxt2" alignment="0" pref="604" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ViewTxt10" max="32767" attributes="0"/>
+                      <Component id="ViewTxt9" max="32767" attributes="0"/>
+                      <Component id="ViewTxt7" max="32767" attributes="0"/>
+                      <Component id="ViewTxt8" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="308" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="imgView" min="-2" pref="681" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="ViewTxt1" pref="19" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="ViewTxt2" pref="19" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="ViewTxt3" pref="19" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                  <Component id="ViewTxt5" pref="19" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="ViewTxt6" pref="19" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="ViewTxt7" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="ViewTxt8" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="ViewTxt9" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Component id="ViewTxt10" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="imgView" alignment="0" pref="206" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="53" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="imgView">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/camiones2.png"/>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection component="Form" name="maximumSize" type="property"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt1">
+          <Properties>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="ViewTxt1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Bienvenido Carlos..."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A tu Plataforma de gesti&#xf3;n de AC CARGA ESPECIALIZADA. Garantiza el cumplimiento de las normativas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="y Mejora la eficiencia en la gesti&#xf3;n de la flota y la carga con esta herramienta."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Aqu&#xed; podr&#xe1;s llevar un control detallado del flujo de operaciones log&#xed;sticas,"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="gracias a herramientas de:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x2022; Aprobaci&#xf3;n de los checklists de seguridad antes de cada viaje"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x2022; Gesti&#xf3;n de informaci&#xf3;n de Conductores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x2022; Supervisi&#xf3;n de asignaci&#xf3;n de tareas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ViewTxt10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x2022; Gesti&#xf3;n de Veh&#xed;culos y Oficinas"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
